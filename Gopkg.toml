@@ -1,0 +1,8 @@
+[metadata]
+package = "github.com/portapps/postman-portable"
+homepage = "https://github.com/portapps/postman-portable"
+license = "MIT"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/portapps/portapps"

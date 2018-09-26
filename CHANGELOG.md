@@ -1,5 +1,11 @@
 # Changelog
 
+## 6.3.0-8 (2018/09/26)
+
+* Upgrade to Postman 6.3.0
+* Upgrade to Go 1.11
+* Use [go mod](https://golang.org/cmd/go/#hdr-Module_maintenance) instead of `dep`
+
 ## 6.2.4-7 (2018/08/11)
 
 * Upgrade to Postman 6.2.4

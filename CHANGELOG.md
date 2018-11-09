@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.5.2-10 (2018/11/09)
+
+* Upgrade to Postman 6.5.2
+
 ## 6.4.4-9 (2018/10/26)
 
 * Upgrade to Postman 6.4.4

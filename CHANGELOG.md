@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.7.1-13 (2019/01/10)
+
+* Upgrade to Postman 6.7.1
+
 ## 6.6.1-12 (2018/12/11)
 
 * Upgrade to Postman 6.6.1

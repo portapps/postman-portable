@@ -1,5 +1,10 @@
 # Changelog
 
+## 6.7.3-1 (2019/02/05)
+
+* Upgrade to Postman 6.7.3
+* Switch to TravisCI (com)
+
 ## 6.7.2-14 (2019/01/25)
 
 * Upgrade to Postman 6.7.2

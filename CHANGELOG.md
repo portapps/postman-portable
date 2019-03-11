@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.0.5-3 (2019/03/11)
+
+* Upgrade to Postman 7.0.5
+* Portapps 1.20.2
+
 ## 6.7.4-2 (2019/02/26)
 
 * Upgrade to Postman 6.7.4

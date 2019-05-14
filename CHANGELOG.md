@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.0.9-8 (2019/05/14)
+
+* Trademark Policy violation report (Issue #6)
+* Portapps 1.23.0
+
 ## 7.0.9-7 (2019/04/22)
 
 * Postman 7.0.9

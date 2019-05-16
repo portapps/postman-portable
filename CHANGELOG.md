@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.0-9 (2019/05/16)
+
+* Postman 7.1.0
+* Portapps 1.24.1
+* Postman allows Portapps to use their logo (Issue #7)
+
 ## 7.0.9-8 (2019/05/14)
 
 * Trademark Policy violation report (Issue #6)

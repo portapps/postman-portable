@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.14.0-27 (2019/12/18)
+
+* Postman 7.14.0
+* Add `cleanup` config
+* Portapps 1.31.0
+
 ## 7.13.0-26 (2019/12/05)
 
 * Postman 7.13.0

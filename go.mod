@@ -2,4 +2,4 @@ module github.com/portapps/postman-portable
 
 go 1.13
 
-require github.com/portapps/portapps/v2 v2.3.0
+require github.com/portapps/portapps/v2 v2.4.4

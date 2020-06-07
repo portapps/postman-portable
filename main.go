@@ -40,6 +40,9 @@ func main() {
 
 	app.Process = utl.PathJoin(electronBinPath, "Postman.exe")
 	app.WorkingDir = electronBinPath
+	app.Args = []string{
+		"--user-data-dir=" + app.DataPath,
+	}
 
 	// Cleanup on exit
 	if cfg.Cleanup {

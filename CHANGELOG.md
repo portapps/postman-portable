@@ -1,5 +1,11 @@
 # Changelog
 
+## 8.2.2-49 (2021/04/14)
+
+* Postman 8.2.2
+* Portapps 3.3.0
+* No more win32 release
+
 ## 8.0.5-48 (2021/02/15)
 
 * Postman 8.0.5

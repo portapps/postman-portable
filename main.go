@@ -1,10 +1,10 @@
 //go:generate go install -v github.com/josephspurrier/goversioninfo/cmd/goversioninfo
-//go:generate goversioninfo -icon=res/papp.ico -manifest=res/papp.manifest
 package main
 
 import (
 	"os"
 	"path"
+	"path/filepath"
 
 	"github.com/portapps/portapps/v3"
 	"github.com/portapps/portapps/v3/pkg/log"
@@ -38,7 +38,7 @@ func main() {
 	utl.CreateFolder(app.DataPath)
 	electronAppPath := app.ElectronAppPath()
 
-	app.Process = utl.PathJoin(electronAppPath, "Postman.exe")
+	app.Process = filepath.Join(electronAppPath, "Postman.exe")
 	app.WorkingDir = electronAppPath
 	app.Args = []string{
 		"--user-data-dir=" + app.DataPath,

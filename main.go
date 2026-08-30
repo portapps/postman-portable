@@ -3,12 +3,11 @@ package main
 
 import (
 	"os"
-	"path"
 	"path/filepath"
 
 	"github.com/portapps/portapps/v3"
+	"github.com/portapps/portapps/v3/pkg/files"
 	"github.com/portapps/portapps/v3/pkg/log"
-	"github.com/portapps/portapps/v3/pkg/utl"
 )
 
 type config struct {
@@ -35,7 +34,9 @@ func init() {
 }
 
 func main() {
-	utl.CreateFolder(app.DataPath)
+	if err := os.MkdirAll(app.DataPath, 0o755); err != nil {
+		log.Fatal().Err(err).Msg("Cannot create data path")
+	}
 	electronAppPath := app.ElectronAppPath()
 
 	app.Process = filepath.Join(electronAppPath, "Postman.exe")
@@ -47,9 +48,7 @@ func main() {
 	// Cleanup on exit
 	if cfg.Cleanup {
 		defer func() {
-			utl.Cleanup([]string{
-				path.Join(os.Getenv("APPDATA"), "Postman"),
-			})
+			files.Cleanup(filepath.Join(os.Getenv("APPDATA"), "Postman"))
 		}()
 	}
 
